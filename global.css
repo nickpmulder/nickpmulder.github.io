@@ -1,6 +1,6 @@
 body{
     background-color: #2b2b2b;
-    font-family: 'Barlow Semi Condensed';
+    font-family: 'Barlow Semi Condensed', sans-serif;
     color: chartreuse;
 
 }
@@ -28,7 +28,7 @@ input{
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-    font-family: 'Barlow Semi Condensed';
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 600;
 
 
@@ -61,7 +61,7 @@ input[type=number] {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-family: 'Barlow Semi Condensed';
+  font-family: 'Barlow Semi Condensed', sans-serif;
   margin: 10px;
 
 }
@@ -109,7 +109,7 @@ text-shadow: 0 0 0 white;
     height: 50px;
     font-size: 100%;
     font-weight: 600;
-    font-family: 'Barlow Semi Condensed';
+    font-family: 'Barlow Semi Condensed', sans-serif;
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 0;
@@ -193,6 +193,11 @@ a{
   
 
  }
+
+ .mono{
+
+  font-family: 'DM Mono', monospace;
+}
 
 
 .black{
@@ -417,3 +422,4 @@ a{
      
   
     }
+
