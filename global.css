@@ -292,29 +292,30 @@ a{
     width: 130px;
     height: 50px;
     color: rgb(0, 0, 0);
-    background-color: rgb(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     font-size: 2rem;
     font-weight: 900;
     outline: none;
-    
+
+    }
+
+    .input1:hover{
+      animation: blinker 1s ease-in-out infinite;
+      color: rgb(0, 0, 0);
+    }
+
+    .input1:focus{
+      animation:none;
+      color: white;
     }
     
     
-    .input2{
-    display: inline; 
-    width: 130px;
-    height: 50px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(0,0,0,0);
-    margin: 0;
-    font-size: 2rem;
-    font-weight: 900;
-    outline: none;
 
+@keyframes blinker {
+  50% {
+    color: rgb(116, 116, 116);
+  }
 
-    
-    
-    
     }
 
     .unit1{
